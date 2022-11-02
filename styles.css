@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    padding: 5px;
+}
+
+input {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input:hover {
+
+    border-color: blueviolet;
+    cursor: pointer;
+}
+
+.card {
+    text-align: center;
+    margin-top: 5px;
+    box-shadow: 0px 8px 8px rgb(145, 150, 149);
+    background-color: beige;
+    display: none;
+
+}
+
+.icon {
+    text-align: center;
+    background: light;
+
+
+}
+
+.details {
+    text-align: center;
+    margin: 12px;
+    background-color: beige;
+}
+
+h5 {
+    margin: 10px;
+    font-size: 20px;
+}
+
+span {
+    font-size: 2em;
+}
+
+.weather-condition {
+    margin-bottom: 10px;
+}
+
+.time {
+    text-align: right;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    font-style: oblique;
+
+}
+
+.image {
+    max-width: 400px;
+}
+
+#icon {
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+    background-color: aliceblue;
+}
